@@ -1,0 +1,52 @@
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    }
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    text-align: center;
+    background-color: teal;
+    color: #ffff;
+    border-radius: 10px;
+    box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
+    
+}
+
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h2{
+    font-size: 1rem;
+    border-bottom: 1px solid #999;
+    margin-bottom: 0.5rem;
+    
+}
+
+header, nav, main, footer{
+    margin: 0 auto;
+    padding: 00.75em;
+    max-width: 32em;
+}
+
+header{
+    display: block;
+    height: 150px;
+    
+}
+
+.home{
+    font-weight: bold;
+    color: #ffff;
+    text-decoration: none;
+}

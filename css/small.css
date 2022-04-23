@@ -45,6 +45,10 @@ header{
     
 }
 
+#content {
+    min-height: calc(100vh - 40px);
+  }
+
 .home{
     font-weight: bold;
     color: #ffff;

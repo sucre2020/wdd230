@@ -8,12 +8,14 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    padding: 0;
 }
 
 header, footer{
     text-align: center;
-    background-color: teal;
-    color: #ffff;
+    background-color: #bbb;
+    color: teal;
+    font-weight: bold;
     border-radius: 10px;
     box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
     
@@ -33,16 +35,20 @@ h2{
     
 }
 
-header, nav, main, footer{
+header, main, footer{
     margin: 0 auto;
     padding: 00.75em;
     max-width: 32em;
 }
 
 header{
-    display: block;
-    height: 150px;
-    
+   margin: 1rem auto;
+   border: 1px solid #eee;
+   padding: .5rem;
+   background-color: #bbb;
+   display: grid;
+   grid-template-columns: 100px 1fr;
+   align-items: center;
 }
 
 #content {
@@ -51,6 +57,7 @@ header{
 
 .home{
     font-weight: bold;
-    color: #ffff;
+    color: teal;
+    font-weight: bold;
     text-decoration: none;
 }

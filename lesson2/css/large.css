@@ -1,0 +1,9 @@
+@media only screen and (min-width: 65.5em) {
+    .card-stack {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1em;
+      }
+
+      
+    }

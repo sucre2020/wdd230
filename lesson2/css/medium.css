@@ -2,13 +2,6 @@
     h1 {font-size: 2.5rem;}
     
     h2 {font-size: 1.5rem;}
-    
-    header img{
-        box-shadow: 0 0 30px #444;
-        float:right;
-        border-radius: 0 10px 0 0;
-    }
-
 
     header h1 {
         font-family: "Lato", sans-serif;
@@ -18,7 +11,7 @@
     
       .card-stack {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 1em;
-      }
+      } 
     }

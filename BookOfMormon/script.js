@@ -1,25 +1,20 @@
-
-const list = document.querySelector('ul');
-const input = document.querySelector('input');
+const item = document.querySelector('#item');
 const button = document.querySelector('button');
+const output = document.querySelector('.list');
 
 button.addEventListener('click', () => {
-  const myItem = input.value;
-  input.value = '';
-
-  const listItem = document.createElement('li');
-  const listText = document.createElement('span');
-  const listBtn = document.createElement('button');
-
-  listItem.appendChild(listText);
-  listText.textContent = myItem;
-  listItem.appendChild(listBtn);
-  listBtn.textContent = 'Delete';
-  list.appendChild(listItem);
-
-  listBtn.addEventListener('click', () => {
-    list.removeChild(listItem);
-  });
-
-  input.focus();
+    if (item.value != '') {
+        let li = document.createElement('li');
+        let deleteElement = document.createElement('button');
+        li.textContent = item.value;
+        deleteElement.textContent = "❌";
+        li.append(deleteElement);
+        output.append(li);
+        deleteElement.addEventListener('click', function() {
+            output.removeChild(li);
+            item.focus();
+        })
+        item.value = "";
+        item.focus;
+    }
 });

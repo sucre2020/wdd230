@@ -113,11 +113,11 @@ html {
   }
   
   .byline {
-    font-size: 0.6em;
+    font-size: 0.3em;
   }
   
   h1 {
-    line-height: 0.8em;
+    line-height: 0.4em;
     grid-column: 2/3;
     align-self: center;
   }
@@ -166,6 +166,19 @@ html {
   .address {
     font-size: 1.1em;
     font-weight: 700;
+  }
+
+  .aqua{
+    color: gold;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: #bbb;
+  }
+
+  .meet{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aquamarine;
   }
 
   .home{

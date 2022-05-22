@@ -16,7 +16,7 @@
 	nav,
 	main,
 	footer {
-	  max-width: 64rem;
+	  max-width: 85rem;
 	  margin: auto;
 	}
 	nav button {
@@ -34,6 +34,7 @@
 	nav {
 	  font-size: 25px;
 	  background-color:#FF1654;
+	  margin-top: -110px;
 	}
 	
 	nav ul {

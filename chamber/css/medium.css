@@ -112,24 +112,33 @@
 
     .centered {
       position: absolute;
-      top: 50%;
+      top: 48%;
       left: 50%;
       transform: translate(-50%, -50%);
-      background:none;
+      background-color: #060C37;
+      opacity: 80%;
       font-weight: bold;
-      font-size: 23px;color:rgba(45 45 45) ;
+      font-size: 1.8em;
+      color:white ;
       font-style:italic;
+      padding: 5px;
+      border-radius: 10px;
+     
+
 
     }
 
     /* Bottom right text */
     .bottom-right {
       position: absolute;
-      bottom: -320px;
+      bottom: -280px;
       right: 360px;
       border-radius: 10px;
-      padding: 1px;
-      background-color: aquamarine;
+      padding: 5px;
+      font-size: 1.8em;
+      color: #FFFFFF;
+      background-color: #060C37;
+      opacity: 80%;
     }
 
     

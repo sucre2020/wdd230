@@ -11,6 +11,10 @@
 	header img {
 	  max-width: 15em;
 	}
+
+	header{
+		background-image: url(/wdd230/images/background-image.webp);
+	}
   
 	header,
 	nav,

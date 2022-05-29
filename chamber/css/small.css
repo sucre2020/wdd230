@@ -199,10 +199,15 @@ html {
 
   .meet{
     border-radius: 10px;
-    padding: 10px;
-    background-color: aquamarine;
+    padding: 5px;
+    background-color:#060C37;
+    opacity: 80%;
+    color: white;
+    font-size: 1.8em;
   }
 
   .home{
-    color: teal;
+    color: white;
+    text-decoration: none;
+    
   }

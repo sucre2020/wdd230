@@ -16,29 +16,24 @@
     <header>
       <div class="top">
         <img class="logo"
-        src="images/cham_logo-removebg-preview.png"
+        src="images/cham_logo-webP.webp"
         alt=""/>
       <p id="banner"></p>
       <div class="social">
         <a
         class="socialmedia"
         target="_blank"
-        href="https://www.linkedin.com"
-        ><img
+        href="https://www.linkedin.com"><img
           class="icon"
-          src="images/LinkedIn_icon.png"
-      /></a>
+          src="images/LinkedIn_icon.png" alt="Linkedin Icon"/></a>
   
-      <a class="socialmedia" target="_blank" href="https://www.facebook.com"
-        ><img
-          class="icon"
-          src="images/facebook_icon.png"
-      /></a>
+      <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon"
+        src="images/facebook_icon.png" alt="Facebook Icon"/></a>
       </div>
       
      
     <nav>
-      <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
+      <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
       <ul id="primaryNav">
         <li class="active"><a href="#">Discover</a></li>
         <li><a href="#">Directory</a></li>
@@ -53,8 +48,10 @@
     <main >
       <div class="hero grid-col-2">
         <figure class="hero">
-          <img src="images/download (6).jpg" alt="main picture"
-          sizes="50vw">
+          <img src="images/wdd230-org_1.webp" alt="main picture" sizes="50vw"
+          srcset="images/SMALL.jpg 400w,
+          images/MEDIUM.jpg 500w,
+          images/LARGE.JPG 700w">
         </figure>
         <div class="centered">
           <h3>Welcome to Calabar Chambers!</h3>
@@ -68,16 +65,17 @@
         <h3>Watch Out For Updates!</h3>
         <p>Join us for the grand opening of our multi-purpose Head office this week at 16:00hrs GMT!</p>
         <figure>
-          <img src="" alt="" width="100">
+          <img src="images/office.jpg" alt="Head Office" width="200">
         </figure>
       </div>
       <div class="weather grid-col-1">
         <h3 class="aqua">Weather</h3>
-        <figure>
-          <img src="images/sun_icon-removebg-preview.png" alt="" width="100">
+        <figure class="sun">
+          <img src="images/sun_icon-removebg-preview.png" alt="Sun Icon" width="100">
         </figure>
-        <p><span id="t">33</span>&#176;C</p>
+        <p class="placement"><span id="t">33</span>&#176;C</p>
         <p>Partly Cloudy</p>
+        <hr>
         <p>Wind Speed: <span id="s">25</span> km/h</p>
         <p>WindChill: <span id="w"></span> N/A</p>
       </div>
@@ -97,7 +95,6 @@
         <div class="spotlight-1">
           <h3 class="aqua">Sangisang Services</h3>
           <figure>
-            <img src="" alt="" width="100">
             <img src="images/icon_of_bungalow-removebg-preview.png" alt="bungalow image" width="100">
           </figure>
           <p class="spotlight-tagline">Your next home!</p>
@@ -131,8 +128,8 @@
     </main>
     <footer>
         <img
-        src="images/cham_logo-removebg-preview.png" width="150em"
-        alt=""
+        src="images/cham_logo-webP.webp" width="150"
+        alt="logo"
       />
       <div class="contact">
 <p><span class="address">Calabar Chamber of Commerce</span><br>Mbukpa Estate<br>
@@ -141,8 +138,9 @@
     <p>info@calabarchamberofcommerce.org<br> 08027 861 481</p>
     <p>Location Map <br> <a class="home" href="/wdd230/index.html">Home</a> </p></div>
       <div class="foot">&copy;2022 Calabar Chamber of Commerce | <span class="foot-name">Efita Effiom</span> | WDD 230
-        Project<br>Last Modification: <span id="lastmod"></span</div>
+        Project<br>Last Modification: <span id="lastmod"></span></div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
   </body>
 </html>

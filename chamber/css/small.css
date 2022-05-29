@@ -112,10 +112,6 @@ html {
     justify-self: center;
   }
   
-  .byline {
-    font-size: 0.3em;
-  }
-  
   h1 {
     line-height: 0.4em;
     grid-column: 2/3;
@@ -147,6 +143,22 @@ html {
     text-align: center;
     margin: 5px;
   }
+
+  main figure.hero {
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0;
+    position: relative;
+    grid-row: 1/2;
+    align-self: center;
+  }
+
+  main figure.hero img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
   
   main div {
     background-color: #AAA694;
@@ -154,6 +166,16 @@ html {
     /* border: 3px solid #606c38; */
     /* padding: 10px; */
   }
+
+  main ul {
+    list-style: none;
+  }
+  
+  .join {
+    display: none;
+  }
+  
+ 
 
   footer {
     display: block;

@@ -34,7 +34,7 @@
 	nav {
 	  font-size: 25px;
 	  background-color:#FF1654;
-	  margin-top: -110px;
+	  
 	}
 	
 	nav ul {
@@ -71,6 +71,33 @@
 	.weather {
 	  grid-row: 2/3;
 	  grid-column: 1/2;
+	}
+
+	.weather, grid-col-1 p{
+		color: white;
+		font-style: italic;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	.sun img{
+		position: relative;
+		top: 10px;
+		left: -15px;
+	}
+
+	.placement{
+		position: relative;
+		top: -70px;
+		left: 70px;
+		font-size: 16px;
+	}
+
+	hr{
+		width:50% ;
+		height: 2px;
+		background-color: gold;
+		border-width: 0;
 	}
   
 	.join {

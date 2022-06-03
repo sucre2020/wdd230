@@ -1,0 +1,20 @@
+img {
+    background: #F1F1FA;
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin: 10px auto;
+    border: 0;
+    border-width: 20px;
+    border-style:solid;
+    border-color: aqua;
+   
+  }
+
+h1, footer{
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+    margin: auto;
+    width: fit-content;
+}

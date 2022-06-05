@@ -1,3 +1,30 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    
+}
+header h1 {margin: 0;}
+header h2 {margin: 0; font-weight: normal;}
+header figure.logo{
+    float: left;
+    margin: 0 2% 0 0;
+}
+
+/*----------- NAVIGATION --------------*/
+
+
+
+
+
 body{
     background: url(/wdd230/chamber/images/discoverImage.webp) no-repeat;
     background-size: cover;
@@ -39,4 +66,41 @@ ul li ul li{
 
 ul li:hover ul li{
     display: block;
+}
+
+
+
+
+
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+
+main figure.myphoto{
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+main figure.myphoto img{width: 100%;}
+main figure.myphoto figcaption{text-align: center;font-size: .75rem;}
+
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #ddd;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }

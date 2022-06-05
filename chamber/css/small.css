@@ -228,8 +228,22 @@ html {
     display: block;
     margin: 10px auto;
     border: 0;
+   
+   
+  }
+
+  .extra p{
+    font-family:cursive;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
     border-width: 20px;
     border-style:solid;
     border-color: aqua;
-   
   }
+
+  h2{
+    text-align: center;
+  }
+
+ 

@@ -246,4 +246,9 @@ html {
     text-align: center;
   }
 
- 
+  @media only screen and (min-width: 32.5em){
+    
+    .extra img{
+      width: 200px;
+      height: 300px;
+}}

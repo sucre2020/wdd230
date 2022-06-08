@@ -1,0 +1,45 @@
+*{
+    font-family: "ubuntu", sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    border-color: aqua;
+    margin: 200px auto ;
+}
+
+th, td{
+    padding: 7px  10px;
+    border:1px solid grey;
+    text-align: center;
+}
+
+thead{background-color: burlywood;
+    font-size: 2rem;}
+
+tbody tr:nth-child(1){
+    background-color: turquoise;
+}
+
+tr:nth-child(3),tr:nth-child(5),tr:nth-child(7){
+    background-color:rgb(222, 238, 222) ;
+}
+
+tbody tr td#spark{
+    background-color: turquoise;
+    color:white;
+}
+
+tbody tr:nth-child(even) {
+	background-color:  whitesmoke;
+    
+}
+
+tfoot {
+    background-color: burlywood;
+    font-size: 15px;
+}
+
+tbody tr td#cursive{
+    font-style: italic;
+}

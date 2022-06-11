@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <link rel="shortcut icon" href="/wdd230/favicon.ico">
+    <title>Calabar Chamber of Commerce</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <img class="logo"
+        src="images/cham_logo-webP.webp"
+        alt=""/>
+      <p id="banner"></p>
+      <div class="social">
+        <a
+        class="socialmedia"
+        target="_blank"
+        href="https://www.linkedin.com"><img
+          class="icon"
+          src="images/LinkedIn_icon.png" alt="Linkedin Icon"/></a>
+  
+      <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon"
+        src="images/facebook_icon.png" alt="Facebook Icon"/></a>
+      </div>
+      
+     
+    <nav>
+      <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+      <ul id="primaryNav">
+        <li class="active"><a href="#">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+      </div>
+    <p class="date"></p>
+
+    </header>
+    <main >
+        <main class="join-grid">
+            <h1>Join the Port-Harcourt City Chamber of Commerce!</h1>
+            <div class="membership-info">
+              <h2>Membership Levels</h2>
+              <div class="membership-level">
+                <h3>Non-Profit (NP) Membership</h3>
+                <p>Welcome to our community.<br>FREE</p>
+              </div>
+              <div class="membership-level">
+                <h3>Bronze Membership</h3>
+                <p>You're almost there, few more levels and you're up there.<br>$50</p>
+              </div>
+              <div class="membership-level">
+                <h3>Silver Membership</h3>
+                <p>Good to have you here, Do you mind stepping up a bit?<br>70</p>
+              </div>
+              <div class="membership-level">
+                <h3>Gold Membership</h3>
+                <p>We are so grateful for your continued support and participation.<br>$100</p>
+              </div>
+        
+            </div>
+            
+            <form method="get" action="thanks.html">
+                
+          
+              <fieldset>
+                  <legend>Applicant Information</legend>
+                  <label class="top">First Name* <input type="text" name="fname" required></label>
+                  <label class="top">Last Name* <input type="text" name="lname" required></label>
+                  <label label class="top">Business Position<input type="text" name="title" pattern="([a-zA-Z -]+)" minlength="7"></label>
+                  <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                  <label class="top">Phone* <input type="tel" name="phone" placeholder="12333444455" required></label>
+                  <label class="top">Business Name* <input type="text" name="bname" required></label>
+              </fieldset>
+    
+              <fieldset>
+                  <legend>Membership Level</legend>
+                  <div>Audience</div>
+                <label class="sbs"><input type="radio" name="level" value="free">NP Membership - FREE</label>
+                <label class="sbs"><input type="radio" name="level" value="bronze">Bronze Membership - $50</label>
+                <label class="sbs"><input type="radio" name="level" value="silver">Silver Membership - $70</label>
+                <label class="sbs"><input type="radio" name="Audience" value="gold">Gold Membership - $100</label>
+              </fieldset>
+              <fieldset>
+                <legend>Business Information</legend>
+                <label>
+                  <textarea name="description" cols="35" rows="10"></textarea>
+                </label>
+              </fieldset>
+              <input type="hidden" id="formdate" name="date" required>
+              <input type="submit" value="Join"label class="submitBtn"/>
+            </form>
+    </main>
+    <footer>
+        <img
+        src="images/cham_logo-webP.webp" width="150"
+        alt="logo"
+      />
+      <div class="contact">
+<p><span class="address">Calabar Chamber of Commerce</span><br>Mbukpa Estate<br>
+  Calabar </p></div>
+  <div class="location">  
+    <p>info@calabarchamberofcommerce.org<br> 08027 861 481</p>
+    <p>Location Map</p> <br> <a class="home" href="/wdd230/index.html">Home</a> </p></div>
+      <div class="foot">&copy;2022 Calabar Chamber of Commerce | <span class="foot-name">Efita Effiom</span> | WDD 230
+        Project<br>Last Modification: <span id="lastmod"></span></div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
+  </body>
+</html>

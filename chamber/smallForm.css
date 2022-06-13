@@ -426,6 +426,10 @@ html {
   .foot-name {
     font-weight: 700;
   }
+
+  .thanks{
+   color: white;
+  }
   
   
   .clearfix:after {

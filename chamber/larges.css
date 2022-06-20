@@ -1,0 +1,90 @@
+@media only screen and (min-width: 64rem) {
+	main {
+	  grid-template-rows: 1fr 1fr 1fr;
+	  grid-template-columns: 1fr 1fr 1fr 1fr;
+	  margin-left: 35px;
+	  margin-right: 35px;
+	  padding: 10px;
+	  font-size: 0.8rem;
+	}
+  
+	header img {
+	  max-width: 15em;
+	}
+
+	header{
+		background-image: url(/wdd230/images/background-image.webp);
+	}
+  
+	header,
+	nav,
+	main,
+	footer {
+	  max-width: 85rem;
+	  margin: auto;
+	}
+	nav button {
+	  display: none;
+	}
+  
+	.socialmedia img {
+	  max-width: 50px;
+	}
+	.social {
+	  grid-column: 4/5;
+	  justify-self: center;
+	}
+  
+	nav {
+	  font-size: 25px;
+	  background-color:#FF1654;
+	  
+	}
+	
+	
+	nav ul {
+	  display: flex;
+	  flex-direction: row;
+	}
+  
+	.date {
+	  margin: 25px 50px;
+	  font-size: 2em;
+	}
+  
+	h1 {
+	  font-size: 60px;
+      color: white;
+	}
+  
+	nav {
+	  grid-column: 2/4;
+	  align-self: center;
+	  justify-self: start;
+	}
+  
+
+
+	.extra img{
+		width: 300px;
+		height: 400px;
+		display: block;
+		margin: 10px auto;
+		border: 0;
+	   
+	   
+	  }
+	
+	  .extra p{
+		font-family:cursive;
+		margin: auto;
+		width: 30%;
+		padding: 10px;
+		border-width: 20px;
+		border-style:solid;
+		border-color: aqua;
+	  }	
+
+  }
+
+  

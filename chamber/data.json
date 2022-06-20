@@ -1,0 +1,133 @@
+[
+    {
+        "name": "Chibex",
+        "address": " 50 Ekpo Abasi Street, Calabar",
+        "numberOfEmployees": 100,
+        "ceo": "Lafulji",
+        "phone": "(+234) 703-467-2749",
+        "website": "http://chibex.net/",
+        "rating": "User Rating 4.4",
+        "image":"images/office.webp"
+    },
+    {
+        "name": "ECM Terminals",
+        "address": "ECM Terminals Limited, Calabar Free Port",
+        "numberOfEmployees": 10,
+        "ceo": "Andre",
+        "phone": "+234 (0) 907 372 2271",
+        "website": "https://ecomarinegroup.com/",
+        "rating": "User Rating: 4.9",
+        "image": "images/ecmt_full_logo.webp"
+    },
+
+    {
+        "name": "Micura Services",
+        "address": "Calabar Port, EPZ Calabar, Nigeria",
+        "numberOfEmployees": 11,
+        "ceo": "Andem",
+        "phone": "+234 803-879-0207",
+        "website": "https://micuraservices.com/",
+        "rating": "User Rating: 4.9",
+        "image": "images/micura-logo-new.webp"
+    },
+
+    {
+        "name": "Second Adams",
+        "address": "No 2 Essien Abasi Street Spring Road Essien Town, Calabar,",
+        "numberOfEmployees": 12,
+        "phone": "0802 364 1412",
+        "website": "http://secadams.com/",
+        "ceo": "Edidem",
+        "rating": "User Rating 4.9",
+        "image": "images/secondAdam.webp"
+    },
+
+    {
+        "name": "Xyneex Technologies",
+        "address": " #1 Orok-Orok Str, Calabar, Nigeria",
+        "numberOfEmployees": 13,
+        "phone": " +(234) 803 897 2874",
+        "website": "https://www.xyneex.com/",
+        "ceo": "Eyo",
+        "rating": "User Rating 4.9",
+        "image": "images/tech.webp"
+    },
+
+    {
+        "name": "Twyford Ceramics",
+        "address": "Free Trade Zones, Calabar, Cross River State, Nigeria",
+        "numberOfEmployees": 10,
+        "phone": "+234 706 9739991",
+        "website": "https://twyford-ceramics-1.jimdosite.com/",
+        "ceo": "Esin",
+        "rating": "User Rating 4.9",
+        "image": "images/twyfod.webp"
+    },
+
+    {
+        "name": "GERSH HENSHAW & CO",
+        "address": "PROSPECT HOUSE 80, MCC Road, Calabar, Cross River State",
+        "numberOfEmployees": 15,
+        "phone": "(+234) 803 307 4677",
+        "website": "https://gershhenshawandco.com/",
+        "ceo": "Nkoyo",
+        "rating": "User Rating: 4.9",
+        "image": "images/geshhensh.webp"
+    },
+
+    {
+        "name": "Cornerstone Insurance",
+        "address": "135 Ndidem UsangIso Road Cybermul Plaza, Calabar, Cross Rivers Nigeria",
+        "numberOfEmployees": 16,
+        "phone": "+234 806 4798461",
+        "website": "http://www.cornerstone.com.ng/",
+        "ceo": "Asuquo",
+        "rating": "User Rating: 4.9",
+        "image": "images/insurance.webp"
+    },
+
+    {
+        "name": "Kemonai",
+        "address": "14A Spring Road",
+        "numberOfEmployees": 10,
+        "phone": "+234 702 6788205",
+        "website": "https://kemonai.com",
+        "ceo": "Ufan",
+        "rating": "User Rating: 4.9",
+        "image": "images/kemano.webp"
+    },
+
+    {
+        "name": "ETOVILE ICT",
+        "address": "Old Market Square 543105 Mkpani",
+        "numberOfEmployees": 10,
+        "phone": "0816 996 8421",
+        "website": "https://computer-training-institute-mkpani.business.site/",
+        "ceo": "Ima",
+        "rating":"USer RAting: 4.9",
+        "image": "images/etoville.webp"
+    },
+
+    {
+        "name": "Quick School Manager",
+        "address": "C5, 3rd Avenue, State Housing Estate, Calabar",
+        "numberOfEmployees": 10,
+        "phone": "2347047442284",
+        "website": "https://qschoolmanager.com",
+        "ceo": "Ekeng",
+        "rating":"User Rating: 4.9",
+        "image": "images/qsm.webp"
+    },
+
+    {
+        "name": "Nissan Nigeria",
+        "address": "Plot No.7, Block J, Northern Industrial Estate, Murtala Mohammed Highway, Calabar",
+        "numberOfEmployees": 10,
+        "phone": "+234 814 1337694",
+        "website": "http://www.nissan.ng/",
+        "ceo": "Etta",
+        "rating":"User Rating: 3.4",
+        "image": "images/Nissan_Brand_VI_Dark.webp"
+    }
+
+]

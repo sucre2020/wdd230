@@ -4,7 +4,7 @@ const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector(".cards");
 
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
 
 gridbutton.addEventListener("click", () => {
 	// example using arrow function
@@ -18,8 +18,6 @@ function showList() {
 	display.classList.add("list");
 	display.classList.remove("grid");
 }
-
-
 
 
 fetch(requestURL)
@@ -46,17 +44,11 @@ function displayBusiness(business) {
   p2.setAttribute("class", "diwebpage");
   let p3 = document.createElement("p");
   p3.setAttribute("class", "dirating");
-  let p4 = document.createElement("p4");
   let img = document.createElement("img");
   img.setAttribute("src", business.image)
   console.log(business)
 
  
-
-
-  
-
-
   h2.textContent = `${business.name}`;
   p.innerHTML = `${business.address}`;
   p1.innerHTML = `${business.phone}`;
@@ -64,23 +56,22 @@ function displayBusiness(business) {
   p3.innerHTML = `${business.rating}`;
  
 
-
   // Add/append the section(card) with the h2 element
   card.appendChild(img);
   card.appendChild(h2);
-  //card.appendChild(p);
-  //card.appendChild(p1);
+  card.appendChild(p);
+  card.appendChild(p1);
   card.appendChild(p2);
   card.appendChild(p3);
  
   
-  
-
-  // Add/append the existing HTML div with the cards class with the section(card)
+// Add/append the existing HTML div with the cards class with the section(card)
   document.querySelector("div.cards").appendChild(card);
 }
 
 
+
+//last modication 
 const lastmod = document.querySelector("#lastmod");
 lastmod.textContent = document.lastModified;
 

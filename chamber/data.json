@@ -5,7 +5,7 @@
         "numberOfEmployees": 100,
         "ceo": "Lafulji",
         "phone": "(+234) 703-467-2749",
-        "website": "http://chibex.net/",
+        "website": "href= 'http://chibex.net/'",
         "rating": "User Rating 4.4",
         "image":"images/office.webp"
     },
@@ -33,7 +33,7 @@
 
     {
         "name": "Second Adams",
-        "address": "No 2 Essien Abasi Street Spring Road Essien Town, Calabar,",
+        "address": "No 2 Essien Abasi Street, Calabar,",
         "numberOfEmployees": 12,
         "phone": "0802 364 1412",
         "website": "http://secadams.com/",
@@ -55,7 +55,7 @@
 
     {
         "name": "Twyford Ceramics",
-        "address": "Free Trade Zones, Calabar, Cross River State, Nigeria",
+        "address": "Free Trade Zones, Calabar, Nigeria",
         "numberOfEmployees": 10,
         "phone": "+234 706 9739991",
         "website": "https://twyford-ceramics-1.jimdosite.com/",
@@ -66,7 +66,7 @@
 
     {
         "name": "GERSH HENSHAW & CO",
-        "address": "PROSPECT HOUSE 80, MCC Road, Calabar, Cross River State",
+        "address": "PROSPECT HOUSE 80, MCC Road, Calabar",
         "numberOfEmployees": 15,
         "phone": "(+234) 803 307 4677",
         "website": "https://gershhenshawandco.com/",
@@ -77,7 +77,7 @@
 
     {
         "name": "Cornerstone Insurance",
-        "address": "135 Ndidem UsangIso Road Cybermul Plaza, Calabar, Cross Rivers Nigeria",
+        "address": "135 Ndidem UsangIso Road Cybermul Plaza, Calabar",
         "numberOfEmployees": 16,
         "phone": "+234 806 4798461",
         "website": "http://www.cornerstone.com.ng/",
@@ -121,7 +121,7 @@
 
     {
         "name": "Nissan Nigeria",
-        "address": "Plot No.7, Block J, Northern Industrial Estate, Murtala Mohammed Highway, Calabar",
+        "address": "Plot No.7, Block J,Calabar",
         "numberOfEmployees": 10,
         "phone": "+234 814 1337694",
         "website": "http://www.nissan.ng/",

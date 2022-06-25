@@ -1,6 +1,8 @@
+const requestURL = "./data.json";
+const cards = document.querySelector(".cards");
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
+const display = document.querySelector(".cards");
 
 // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
@@ -18,8 +20,7 @@ function showList() {
 }
 
 
-const requestURL = "./data.json";
-const cards = document.querySelector(".cards");
+
 
 fetch(requestURL)
   .then(function (response) {
@@ -45,9 +46,15 @@ function displayBusiness(business) {
   p2.setAttribute("class", "diwebpage");
   let p3 = document.createElement("p");
   p3.setAttribute("class", "dirating");
+  let p4 = document.createElement("p4");
   let img = document.createElement("img");
   img.setAttribute("src", business.image)
   console.log(business)
+
+ 
+
+
+  
 
 
   h2.textContent = `${business.name}`;
@@ -65,6 +72,7 @@ function displayBusiness(business) {
   //card.appendChild(p1);
   card.appendChild(p2);
   card.appendChild(p3);
+ 
   
   
 

@@ -142,13 +142,6 @@ html {
   }
   
  
-
- 
-  
- 
-  
- 
-
   footer {
     display: block;
     background-color: #474747;
@@ -165,82 +158,14 @@ html {
     font-weight: 700;
   }
 
-  .aqua{
-    color: gold;
-    font-weight: bold;
-    font-size: 16px;
-    text-shadow: #bbb;
-  }
-
-  .meet{
-    border-radius: 10px;
-    padding: 5px;
-    background-color:#060C37;
-    opacity: 80%;
-    color: white;
-    font-size: 1.8em;
-  }
-
-  .home{
+ 
+ .home{
     color: white;
     text-decoration: none;
     
   }
 
  
-  h2{
-    text-align: center;
-  }
-
-  @media only screen and (min-width: 32.5em){
-    
-    .extra img{
-      width: 100px;
-      height: 200px;
-      display: block;
-      margin: 10px auto;
-      border: 0;
-     
-     
-    }
-  
-    .extra p{
-      font-family:cursive;
-      margin: auto;
-      width: 30%;
-      padding: 10px;
-      border-width: 20px;
-      border-style:solid;
-      border-color: aqua;
-    }
-
-    .label {
-      font-family: Arial, sans-serif;
-      font-weight: 700;
-    }
-    
-    #visits {
-      color: navy;
-      font-weight: bolder;
-      font-size: larger;
-    }
-    
-    .today {
-      color: tomato;
-    }
-
-    
-
- 
-}
-
-
-
-
-
-
-
-
 * {
 	margin: 0;
 	padding: 0;

@@ -264,7 +264,10 @@ html {
       color: tomato;
     }
 
-    
+    .weather-api{
+      text-align: center;
+     
+    }
 
  
 }

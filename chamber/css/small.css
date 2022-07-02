@@ -403,9 +403,10 @@ form label.top input:required:valid {
   font-size: 20px;
 }
 
-
+@media only screen and (max-width: 500px) and (min-width:300px){
 
   h1#current-time {
   font-size: 20px;
 }
 
+}

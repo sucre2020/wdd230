@@ -140,3 +140,74 @@
     
 
   }
+
+
+
+  /* Medium FORM and Contact Us Form*/
+
+  @media only screen and (min-width: 35rem) {
+    main {
+      grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      /* text-align: start; */
+      padding: 5px;
+      grid-gap: 5px;
+    }
+
+    .join-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+  
+    form {
+      grid-column: 2/3;
+      font-size: 16px;
+    }
+  
+    form fieldset {
+      margin: 15px;
+      text-align: start;
+    }
+  
+    form label.top input {
+      font-size: 1rem;
+    }
+  
+    textarea {
+      width: 100%;
+    }
+  
+    .join-grid h1 {
+      grid-column: 1/3;
+      color: black;
+      line-height: 1.2em;
+      font-size: 45px;
+    }
+  
+    .membership-info {
+      grid-column: 1/2;
+      text-align: start;
+    }
+  
+    .membership-info h2 {
+      font-size: 35px;
+      margin-left: 2%;
+    }
+  
+    .membership-info h3 {
+      font-size: 25px;
+    }
+  
+    .membership-info p {
+      line-height: 1.7em;
+      font-size: 16px;
+    }
+  
+    form {
+      background-color: #f7f0e3;
+    }
+    .join-grid {
+      display: block;
+    }
+  }

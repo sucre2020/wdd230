@@ -271,3 +271,134 @@ html {
 
  
 }
+
+
+
+/*-------- join us and contact us -------*/
+
+.join-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.join-grid h1 {
+  color: black;
+  line-height: 1.2em;
+}
+
+.membership-level {
+  padding: 15px;
+}
+
+form {
+  background-color: #f7f0e3;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #606c38;
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+}
+
+form legend {
+  color: black;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: #9c2c13;
+  font-size: 0.8rem;
+}
+
+form label.top input {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 16px;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+  color: #555;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #bc6c25;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  border-left: #bc6c25 solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: #606c38 solid 6px;
+}
+
+
+.container{
+  width: auto;
+  height: 100vh;
+  background-image: url(/wdd230/images/vincent-van-zalinge-vUNQaTtZeOo-unsplash.webp); 
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.container img{
+  width: 80%;
+}
+
+.container h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 90px;
+    font: weight 600px;
+    letter-spacing: 3px;
+}
+
+.quotes{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 5%;
+    color: white;
+    font-size: 20px;
+    font-family: 500;
+}
+
+.quotes h2{
+    font-size: 45px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.contact-us{
+  font-size: 20px;
+}

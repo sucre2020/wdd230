@@ -23,9 +23,6 @@
 	  max-width: 85rem;
 	  margin: auto;
 	}
-	nav button {
-	  display: none;
-	}
   
 	.socialmedia img {
 	  max-width: 50px;
@@ -39,12 +36,6 @@
 	  font-size: 25px;
 	  background-color:#FF1654;
 	  
-	}
-	
-	
-	nav ul {
-	  display: flex;
-	  flex-direction: row;
 	}
   
 	.date {

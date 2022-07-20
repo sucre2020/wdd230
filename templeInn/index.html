@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/wdd230/favicon.ico">
+    <title>Temple Inn & Suites</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect"href="https://fonts.googleapis.com">
+    <link rel="preconnect"href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@200;400&display=swap" rel="stylesheet">        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="templeimages/templeInn_1_-removebg-preview.png" width="125px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temples</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+       </nav>
+       <img src="templeimages/menu-icon.png" alt="menu-icon" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="centered">
+        <h3>Welcome to the Temple Inn & Suites!</h3>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Always have the Temple<br> in your sights.</h1>
+            <p>"Do nothing which will keep you from entering it's doors and partaking of the 
+                <br>sacred & eternal & eternal blessings there." <br> Thomas S. Monson
+                <p><br>We are super excited to have you here. As you prepare for your temple trip, 
+                we are preparing for your relaxation.</p>
+                <p><br>Temple Inn & Suites caters to temple workers, patrons, and their families by providing
+                specialized service and accomodations that meet the needs of those patrons. </p><p>These hotel
+                accomodations and services are available to anyone willing to abide by the terms and policies
+                outlined by our company.<br>
+                If you are ready to set up your reservation you can do so
+            <a href="reservation.html" class="btn">here &#8594;</a></p>
+        </div>
+        <div class="col-2">
+            <a href="index.html"><img src="templeimages/breakfast (9).png"></a>
+        </div>
+     </div>
+    </div>
+
+    <!------------------------------------ featured categories ------------------------------------->
+    <div class="small-container">
+    <div class="categories">
+        <div class="row">
+            <div class="col-3"> 
+                <img src="templeimages/hotel (1).jpg"></div>
+            <div class="weather-api">
+                <h3 class="col-3">Weather</h3>
+                <p>The current temperature in Calabar, <br>Cross River is <span id="current-temp"></span> &deg;F</p>
+                <h4>Current Condition Icon</h4>
+                <figure>
+                  <img src="" alt="" id="weather-icon" />
+                  <figcaption></figcaption>
+                </figure>
+                <hr>
+                <p>Wind Speed: <span id="s">25</span> km/h</p>
+                <p>WindChill: <span id="w"></span> N/A</p>
+              </div>
+            <div class="col-3"> 
+                <img src="templeimages/hotel (3).jpg"></div>
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+    <!--------------------------------------- featured categories ------------------------------------>
+        <div class="small-container">
+            <h2 class="title">Picturesque</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="templeimages/hotel (4).jpg">
+                    <h4>Serene Environment</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <a href="" class="btn">View More &#8594;</a>
+                </div>
+
+                <div class="col-4">
+                    <img src="templeimages/breakfast (1).png">
+                    <h4>Pool-side View</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <a href="" class="btn">Book My Ticket &#8594;</a>
+                </div>
+
+                <div class="col-4">
+                    <img src="templeimages/hotel (6).jpg">
+                    <h4>Executive Room</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <a href="" class="btn">Book My Room &#8594;</a>
+                </div>
+
+                <div class="col-4">
+                    <img src="templeimages/hotel (7).jpg">
+                    <h4>Scenic Views</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <a href="" class="btn">Reserve this space &#8594;</a>
+                </div>
+
+<!-----------------------------FEATURED SERVICES-------------------------------------------------------------->
+            </div>
+            <h2 class="title">Featured Services</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="templeimages/TempleGym.jpg">
+                    <h4>Fitness Center</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <img src="templeimages/missionaries1.png">
+                    <h4>Ask the Full-Time Missionaries</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <img src="templeimages/wifi_signal.jpg">
+                    <h4>Free Wifi Services</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <img src="templeimages/laundry.jpg">
+                    <h4>Laundry Services</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+
+<!----------------------------------------------Temple offer ------------------------------------------------------------>
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="templeimages/aba_temple.jpg" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <h1>Aba Nigeria Temple</h1>
+                    <p>Okpu-Umuoba Road Off Aba-Owerri Road at Union Bank</p><br>
+                    <h1><a href="tel:(234) 80-3903-4810">(234) 80-3903-4810</a></h1>
+                    <div class="temple">
+                        <h2>Services</h2>
+                        <p>No clothing rental available</p>
+                        <p>No cafeteria available</p>
+                        <p>No patron housing available</p>
+                        <p>Distribution center nearby</p>
+                    </div>
+                    <a href="https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple?lang=eng" target="_blank" class="btn">Read more... &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!--------------------------------------- testimonial ----------------------------------------------------------------->   
+ <div class="testimonial">
+     <div class="small-container">
+         <div class="row">
+             <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                 <p>Those who understand the eternal 
+                     blessings which come from the 
+                     temple know that no sacrifice 
+                     is too great, no price too heavy, 
+                     no struggle too difficult in order 
+                     to receive those blessings.</p>
+                     <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="templeimages/Thomas-S.-Monson.jpg" alt="">
+                    <h3>Thomas S. Monson</h3>
+             </div>
+             <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                 <p>There exists a righteous unity between 
+                     the temple and the home. Understanding 
+                     the eternal nature of the temple will 
+                     draw you to your family; understanding
+                     the eternal nature of the family will 
+                     draw you to the temple</p>
+                     <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="templeimages/Gary-E.-Stevenson.jpg" alt="">
+                    <h3>Gary E. Stevenson</h3>
+             </div>
+             <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                 <p>I know your lives are busy. 
+                     I know that you have much to do. 
+                     But I make you a promise that if 
+                     you will go to the house of the Lord, 
+                     you will be blessed; life will be better 
+                     for you.</p>
+                     <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="templeimages/Gordon-B-Hinckley.jpg" alt="">
+                    <h3>Gordon B. Hinckley</h3>
+             </div>
+         </div>
+     </div>
+ </div>
+    <!------------------------------------footer------------------------------------------------------------------------->  
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="templeimages/appstore.webp" alt="">
+                        <img src="templeimages/applestore.webp" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo_small.png" alt="">
+                    <p>Our purpose is to enhance your temple attendance experience and make you 
+                        feel at home while here
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <a href="temple.html"><li>Temple</li></a>
+                        <a href="reservation.html"><li>Reservations</li></a>
+                        <a href="services.html"><li>Services</li></a>
+                        <a href="contact.html"><li>Contact Us</li></a>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <a href="www.facebook.com" target="_blank"><li><img src="templeimages/facebook_circle_color-128.webp" width="30"></li></a>
+                        <a href="www.linkedin.com" target="_blank"><li><img src="templeimages/LinkedIn_icon.png" width="30"></li></a>
+                        <a href="www.twitter.com" target="_blank"><li><img src="templeimages/twitter-128.webp" width="30"></li></a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> &copy;2022 - Efita Effiom | WDD230 |<br>Last Modification: <span id="lastmod"></span>
+            </p>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+    <script src="lastmod/script.js"></script>
+</body>
+</html>

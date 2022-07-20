@@ -33,7 +33,7 @@
 
     {
         "name": "Congo Kinshasa Temple",
-        "address": "No 2 Essien Abasi Street, Calabar,",
+        "address": "Commune de I'OUA Kinshasa",
         "numberOfEmployees": 12,
         "phone": "0802 364 1412",
         "website": "http://secadams.com/",
@@ -43,91 +43,91 @@
     },
 
     {
-        "name": "Congo Kinshasa Temple",
-        "address": "Commune de I'OUA Kinshasa",
+        "name": "The Hague Temple",
+        "address": "Osijlaan 2 Zoetermeer",
         "numberOfEmployees": 13,
         "phone": " +(234) 803 897 2874",
         "website": "https://www.xyneex.com/",
         "ceo": "Eyo",
         "rating": "User Rating 4.9",
-        "image": "templeimages/congoTemple.jpg"
+        "image": "templeimages/hague-holland.jpg"
     },
 
     {
-        "name": "Twyford Ceramics",
-        "address": "Free Trade Zones, Calabar, Nigeria",
+        "name": "Lisbon Portugal Temple",
+        "address": "Avenida  Dom Joao II",
         "numberOfEmployees": 10,
         "phone": "+234 706 9739991",
         "website": "https://twyford-ceramics-1.jimdosite.com/",
         "ceo": "Esin",
         "rating": "User Rating 4.9",
-        "image": "images/twyfod.webp"
+        "image": "templeimages/lisbon-temple.jpg"
     },
 
     {
-        "name": "GERSH HENSHAW & CO",
-        "address": "PROSPECT HOUSE 80, MCC Road, Calabar",
+        "name": "London England Temple",
+        "address": "W Park Rd, Newchapel, Lingfield",
         "numberOfEmployees": 15,
         "phone": "(+234) 803 307 4677",
         "website": "https://gershhenshawandco.com/",
         "ceo": "Nkoyo",
         "rating": "User Rating: 4.9",
-        "image": "images/geshhensh.webp"
+        "image": "templeimages/londonTemple.jpg"
     },
 
     {
-        "name": "Cornerstone Insurance",
-        "address": "135 Ndidem UsangIso Road Cybermul Plaza, Calabar",
+        "name": "Madrid Spain Temple",
+        "address": "Del Templo No2 Madrid",
         "numberOfEmployees": 16,
         "phone": "+234 806 4798461",
         "website": "http://www.cornerstone.com.ng/",
         "ceo": "Asuquo",
         "rating": "User Rating: 4.9",
-        "image": "images/insurance.webp"
+        "image": "templeimages/madrid-temple.jpg"
     },
 
     {
-        "name": "Kemonai",
-        "address": "14A Spring Road",
+        "name": "Rome Italy Temple",
+        "address": "Via di Settebagni Roma",
         "numberOfEmployees": 10,
         "phone": "+234 702 6788205",
         "website": "https://kemonai.com",
         "ceo": "Ufan",
         "rating": "User Rating: 4.9",
-        "image": "images/kemano.webp"
+        "image": "templeimages/romeTemple.jpg"
     },
 
     {
-        "name": "ETOVILE ICT",
-        "address": "Old Market Square 543105 Mkpani",
+        "name": "Stockholm Sweden Temple",
+        "address": "Templevagen 5, Vasterhaininge",
         "numberOfEmployees": 10,
         "phone": "0816 996 8421",
         "website": "https://computer-training-institute-mkpani.business.site/",
         "ceo": "Ima",
         "rating":"USer RAting: 4.9",
-        "image": "images/etoville.webp"
+        "image": "templeimages/stockholm-sweden.jpg"
     },
 
     {
-        "name": "Quick School Manager",
-        "address": "C5, 3rd Avenue, State Housing Estate, Calabar",
+        "name": "Helsinki Finland Temple",
+        "address": "Leppasillantie Espoo Finland",
         "numberOfEmployees": 10,
         "phone": "2347047442284",
         "website": "https://qschoolmanager.com",
         "ceo": "Ekeng",
         "rating":"User Rating: 4.9",
-        "image": "images/qsm.webp"
+        "image": "templeimages/helsinki.jpg"
     },
 
     {
-        "name": "Nissan Nigeria",
-        "address": "Plot No.7, Block J,Calabar",
+        "name": "Kyiv Ukraine Temple",
+        "address": "Sofiivska B, K, Ukraine",
         "numberOfEmployees": 10,
         "phone": "+234 814 1337694",
         "website": "http://www.nissan.ng/",
         "ceo": "Etta",
         "rating":"User Rating: 3.4",
-        "image": "images/Nissan_Brand_VI_Dark.webp"
+        "image": "templeimages/kiev temple.jpg"
     }
 
 ]
